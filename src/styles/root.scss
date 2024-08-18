@@ -1,0 +1,14 @@
+@tailwind components;
+@import "../App";
+
+@layer components{
+    .page{
+        @apply p-10;
+    }
+}
+
+.side-link{
+    @apply flex flex-row gap-1 items-center justify-start;
+    @extend .link-bg;
+    @apply p-1 px-2;
+}
