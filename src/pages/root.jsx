@@ -1,7 +1,6 @@
 import "../styles/root.scss"
 import {Navbar} from "../components/navbar.jsx";
 
-import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {Profile} from "../data/profile.ts";
 
 
@@ -174,4 +173,8 @@ function About() {
             </Section>
         </div>
     )
+}
+
+function Projects(){
+
 }
