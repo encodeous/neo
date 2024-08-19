@@ -39,14 +39,14 @@ function Project({item, className = ""}) {
              style={{
                  "--project-color": primary,
                  "--secondary-color": secondary,
-                 ...(image && {"background-image": "linear-gradient(to bottom, transparent 0%, #24242476 10%, #242424 80%), url(" + image + ")"})
+                 ...(image && {backgroundImage: "linear-gradient(to bottom, transparent 0%, #24242476 10%, #242424 80%), url(" + image + ")"})
              }}>
             <div className="relative">
                 {/*{image && <img className="absolute -z-10 " src={image} alt="Project Image"/>}*/}
                 <div className="font-black absolute text-2xl px-1 bottom-0 z-10"
                      style={{
                          backgroundColor: primary,
-                         bottom: "-12pt"
+                         bottom: "-1.5rem"
                      }}>
                     {name}
                 </div>

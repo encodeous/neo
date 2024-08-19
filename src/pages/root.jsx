@@ -36,7 +36,7 @@ export function Root() {
                 <div
                     className="col-start-1 md:col-end-3 p-4 text-xs bg-gradient-to-b from-transparent to-[#0000001f] from-10%">
                     <p>
-                        No bugs were hurt while making this site. <a href="https://github.com/encodeous/neo" className="h-underline">encodeous/neo</a>
+                        No bugs were hurt while making this site. <a href="https://github.com/encodeous/neo" className="h-underline" target="_blank">encodeous/neo</a>
                     </p>
                     <p>
                         © {new Date().getFullYear()} Adam Chen. All rights reserved.
