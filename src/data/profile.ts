@@ -1,4 +1,4 @@
-import {FaGithub, FaLinkedin} from "react-icons/fa";
+import {FaFilePdf, FaGithub, FaLinkedin} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
 // @ts-ignore
 import cube from '../assets/rt-cube.jpeg'
@@ -22,6 +22,11 @@ export const Profile = {
             "label": "Email",
             "icon": MdEmail,
             "url": "mailto:contact@encodeous.ca",
+        },
+        {
+            "label": "Resume",
+            "icon": FaFilePdf,
+            "url": "/resume.pdf",
         }
     ]
 }

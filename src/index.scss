@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.fira {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+}
+
+.n-link{
+  padding: 4px 8px;
+  @extend .link-bg;
+}
+
+.link-bg:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.link-bg{
+  transition: all ease .2s;
+  border-radius: 6px;
+}
+
+.outlined:hover{
+  box-shadow: 0 0 0 1pt rgba(255, 255, 255, 0.32);
+}
+.outlined{
+  box-shadow: 0 0 0 1pt transparent;
+}
+
+.frost {
+  backdrop-filter: blur(10px);
+}
+
+.mocha{
+  font-weight: 300;
+  color: #86EFAC;
+  white-space: nowrap;
+}
+
+.tangerine{
+  font-weight: 300;
+  color: #fd9b2c;
+  white-space: nowrap;
+}
+
+.elevated{
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: all ease-in-out .3s;
+}
+
+.elevated:hover{
+  -webkit-box-shadow: 2px 2px 21px -4px rgba(0,0,0,0.3);
+  -moz-box-shadow: 2px 2px 21px -4px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 21px -4px rgba(0,0,0,0.3);
+}
+
+
+.h-underline {
+  display: inline-block;
+  position: relative;
+  color: #fd9b2c;
+}
+
+.h-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  background-color: #fd9b2c;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in-out;
+}
+
+.h-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

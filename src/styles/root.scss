@@ -1,5 +1,5 @@
 @tailwind components;
-@import "../App";
+@import "../index";
 
 @layer components{
     .page{
@@ -10,5 +10,6 @@
 .side-link{
     @apply flex flex-row gap-1 items-center justify-start;
     @extend .link-bg;
+    @extend .outlined;
     @apply p-1 px-2;
 }
