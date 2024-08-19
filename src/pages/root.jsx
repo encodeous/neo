@@ -21,11 +21,11 @@ export function Root() {
     return (
         <div className="h-full">
             <Navbar/>
-            <div className="grid md:grid-cols-[1fr_auto]">
+            <div className="grid md:grid-cols-[auto_1fr]">
                 <div className="md:w-60">
                     <Sidebar/>
                 </div>
-                <div className="flex-shrink">
+                <div className="flex flex-col items-center justify-center">
                     <div>
                         <About/>
                     </div>
@@ -96,7 +96,7 @@ function Projects(){
             <div className="italic">
                 the following are a subset of my projects, you can <Link to="/projects" className="h-underline">view all</Link> of my public projects.
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
                 <ProjectView maxCount={6} className="max-w-[400px]"/>
             </div>
         </div>
