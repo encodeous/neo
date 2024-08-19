@@ -106,6 +106,7 @@ items:
       - swing
       - networking
       - game
+    image: /assets/portfolio/pong.png
     links:
       - name: Source Code
         icon: fa-code
