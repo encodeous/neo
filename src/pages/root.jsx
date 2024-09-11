@@ -1,7 +1,7 @@
 import "../styles/root.scss"
 import {Navbar} from "../components/navbar.jsx";
 
-import {Profile} from "../data/profile.ts";
+import {Profile} from "../data/profile.tsx";
 import {About} from "../data/about.jsx";
 import {ProjectView} from "../data/projectView.jsx";
 import {Link} from "react-router-dom";
