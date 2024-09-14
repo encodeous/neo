@@ -49,7 +49,7 @@ export function About() {
                 When I'm not tinkering around with tech, you might find me playing some games like
                 [
                 <a className="h-underline" href="https://polytopia.io/">Polytopia</a>, <span/>
-                <a className="h-underline" href="hhttps://www.youtube.com/watch?v=wMCrEs1yW9w">MissileWars</a>
+                <a className="h-underline" href="https://www.youtube.com/watch?v=wMCrEs1yW9w">MissileWars</a>
                 ] or out biking with friends :)
             </Section>
             <Section name="technologies">
